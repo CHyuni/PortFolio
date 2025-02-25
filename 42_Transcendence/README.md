@@ -50,10 +50,74 @@ Django 기반 웹 Ping Pong 게임 사이트 개발
 
 ![친구추가](./image/2.png)
 <ul>
-    <li>친구 추가 요청 시 상대방 유저에게 ToastMessage로 알림 후 Pending Users에 응답요청을 생성</li>
+    <li>친구 추가 요청 시 상대방 유저에게 ToastMessage로 알림 후 Pending Users에 응답요청을 생성
         <ul>
             <li>수락 시 해당 유저가 Friends 에 추가</li>
             <li>거절 시 상대방 및 해당 유저 Pending Users 목록에서 요청 제거(따로 알림을 주진 않음)</li>
+        </ul>
+    </li>
+</ul>
+
+![실시간대화](./image/3.png)
+<ul>
+    <li>친구관계인 상대와 실시간 대화 시스템.
+        <ul>
+            <li>상대방과 친구 관계라면 Profile 화면의 왼쪽 상단 이미지 클릭의 드롭다운 메뉴를 통해 Chat 기능 활성</li>
+            <li>상대방과 친구 관계가 아니라면 Chat이 아닌 친구추가 메뉴 활성</li>
+        </ul>
+    </li>
+</ul>
+
+![매칭시작](./image/4.png)
+<ul>
+    <li>홈 화면의 Start Game 버튼 클릭 시 게임 진행을 위한 매칭 시스템
+        <ul>
+            <li>현재 레이팅을 참조해서 매칭이 이루어지진 않고 DataBase를 이용 해 매칭 상태를 업데이트, 매칭 테이블에 먼저 들어온 유저 순서로 매칭 완료.</li>
+        </ul>
+    </li>
+</ul>
+
+![매칭완료](./image/5.png)
+<ul>
+    <li>매칭이 완료 되면 ToastMessage를 이용해 매칭 완료 알림 후 게임 시작</li>
+</ul>
+
+![게임](./image/6.png)
+<ul>
+    <li>UI가 완성형 이지 않은 상태. 왼쪽 상단 현재 날짜 및 시간, 상대방과 나의 Username을 이용 한 WebSocket 주소 생성 후 게임 진행 유저들 접속
+        <ul>
+            <li>클라이언트의 입력 게임 결과 등을 서버사이드에서 관리.</li>
+            <li>모든 입력 및 결과를 서버에서 관리함으로 인해 Client에서 변조를 방지</li>
+        </ul>
+    </li>
+</ul>
+
+![Stat창](./image/7.png)
+<ul>
+    <li>상단 우측 Profile image 클릭 시 나타나는 드롭다운 메뉴의 Stat 클릭 시 이전 게임의 결과 확인가능</li>
+</ul>
+
+![토너먼트](./image/8.png)
+<ul>
+    <li>Tournament Mod 게임 스타트 클릭 시 (좌측 상단의 Casual Mod, Tournament Mod 클릭 시 모드 변경 토글 형식)
+        <ul>
+            <li>해당 토너먼트에서 사용 할 닉네임 입력 가능.</li>
+            <li>빈 칸 입력 시 기본 Username 사용.</li>
+            <li>해당 닉네임은 해당 게임에서만 표기될뿐 Stat 등 기록에 관해서는 해당 유저의 본 ID가 나타남.</li>
+        </ul>
+    </li>
+</ul>
+
+![토너먼트시작](./image/9.png)
+<ul>
+    <li>토너먼트 시작 시 ToastMessage를 이용 해 게임 시작을 알리고 대진표를 나타냄</li>
+</ul>
+
+![RoundWin](./image/10.png)
+<ul>
+    <li>1라운드 승리 시 기존 Winner 대진표 란에 승자가 표시 되고 승자간 게임 대결 시작
+        <ul>
+            <li>패배한 유저는 Home으로 돌아가게 되고 승자 대결 종료 후 모든 유저 Home으로 복귀</ul>
         </ul>
     </li>
 </ul>
