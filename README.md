@@ -1,4 +1,4 @@
-# 42_Transcendence <small>(프로젝트 기간 24.12 - 25.02)</small>
+# 42_Transcendence 🗓️ (24.12 - 25.02)
 
 팀원
 
