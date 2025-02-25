@@ -13,3 +13,7 @@ Django 기반 웹 Ping Pong 게임 사이트 개발
 * Docker로 환경 독립적인 배포 구현
 * REST API 설계 및 개발
 * WebSocket으로 실시간 유저상호작용 구현
+
+
+![홈화면](./image/home.png)
+로그인 시 홈 화면 로그인은 42 일원들에게 할당 된 42 ID를 이용한 Oauth2.0 을 이용 (google 로그인 부분은 테스트를 위해 oauth 사용을 하지않고 DATABASE에 저장된 ID를 이용해 접근가능)
