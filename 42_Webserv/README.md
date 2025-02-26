@@ -13,7 +13,7 @@ C++ 언어와 Epoll 기반의 I/O 멀티플렉싱 기술을 활용하여 고성�
 * CHyuni (C++, Epoll, HTTP Parsing)
 * 1107c (C++, Epoll, HTTP Parsing)
 
-## 기술 스택 (Technical Stack)
+## 기술 스택
 
 * C++: 주 개발 언어, 객체 지향 프로그래밍, 메모리 관리
 * Epoll: I/O 멀티플렉싱, 높은 동시성 처리
