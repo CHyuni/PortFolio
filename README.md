@@ -1,4 +1,4 @@
-# PortPolio
+# PortFolio
 
 ## 42_Transcendence 🗓️ (24.12 - 25.02)
 [42_Transcendence](https://github.com/CHyuni/portpolio/blob/main/42_Transcendence/README.md)
