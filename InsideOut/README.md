@@ -6,7 +6,7 @@
 
 단순히 AI 모델을 적용하는 것을 넘어, AWS 클라우드 시스템을 활용하여 서버의 물리적 보안 및 클라우드 인프라 보안을 강화하고, IaC(Infrastructure as Code)를 구현하여 인프라 구축 및 배포 자동화를 경험하는 것을 목표로 했습니다. 이를 통해 시스템의 안정성과 확장성을 높이고, 운영 효율성을 개선했습니다.
 
-![Repositories](https://github.com/CHyuni/insideoutCdk)
+[Repositories](https://github.com/CHyuni/insideoutCdk)
 
 팀원
 
