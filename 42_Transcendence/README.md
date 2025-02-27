@@ -6,6 +6,8 @@
 
 **저는 이 프로젝트에서 Django 백엔드 개발을 담당하며, 특히 WebSocket을 이용한 실시간 게임 로직 구현에 집중했습니다. 실시간 사용자 상호작용을 구현하는 과정에서 WebSocket 연결 관리 및 메시지 송수신 문제를 겪었지만, 채널 레이어를 깊이 있게 학습하고 적용하여 안정적인 연결을 구축할 수 있었습니다.** 또한, REST API 설계를 통해 효율적인 데이터 관리를 가능하게 했으며, Django ORM을 활용하여 데이터베이스와 효율적으로 상호작용했습니다.
 
+[Repositories](https://github.com/CHyuni/42_Transcendence)
+
 팀원
 
 * CHyuni (Django 백엔드 개발, Django REST Framework를 사용한 API 개발, React 기반 프론트엔드 연동 및 Websocket을 이용한 실시간 통신 기능 구현)
