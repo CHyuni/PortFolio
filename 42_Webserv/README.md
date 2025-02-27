@@ -8,6 +8,8 @@ C++ 언어와 Epoll 기반의 I/O 멀티플렉싱 기술을 활용하여 고성�
 
 저수준 소켓 통신 과정에서 발생하는 다양한 문제점들을 해결하고, 멀티스레딩 환경에서의 동기화 문제를 해결하기 위해 노력했습니다. 본 프로젝트를 통해 HTTP 프로토콜, TCP/IP 소켓 통신, Epoll 기반의 I/O 멀티플렉싱, 그리고 멀티스레딩 프로그래밍에 대한 깊이 있는 이해를 얻을 수 있었습니다.
 
+[Repositories](https://github.com/CHyuni/webserv)
+
 팀원
 
 * CHyuni (C++, Epoll, HTTP Parsing)
